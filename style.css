@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.main-div {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: hsl(206, 92%, 94%);
+}
+
+li {
+    list-style: none;
+    padding: 8px 0;
+}
+
+.inner-div {
+    background-color: #fff;
+    width: 50vw;
+    padding: 3rem 8rem;
+    border-radius: 10px;
+    box-shadow:0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+.inner-div h1{
+    margin-bottom:20px;
+}
+.hide{
+    display: none;
+}
+#nextQue{
+    background-color: chartreuse;
+    border-radius: 7px;
+    width: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}

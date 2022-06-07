@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadQuestion()">
+<div class="main-div" id="quizBox">
+    <div class="inner-div">
+        <h1 id="questions">Question comes here</h1>
+        <ul>
+        <li id="ans1" class="option"onclick="chkAnswer(this)">Answer Option</li>
+        <li id="ans2" class="option"onclick="chkAnswer(this)">Answer Option</li>
+        <li id="ans3" class="option"onclick="chkAnswer(this)">Answer Option</li>
+        <li id="ans4" class="option" onclick="chkAnswer(this)">Answer Option</li>
+
+    </ul>
+    <span id="counterValue"> 1 / 7</span>
+    <button class="hide" id="nextQue" onclick="nextQue()">Next Question</button>
+    </div>
+    <h1 class="hide" id="resultValue">RESULT : </h1>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
